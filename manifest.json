@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Number Enhancer",
+  "version": "1.0",
+
+  "description": "Adds accessibilty features for users with visual impairements",
+
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.amazon.co.uk/vine/vine-items?queue=encore*"],
+      "js": ["accessibility.js"]
+    }
+  ]
+}
