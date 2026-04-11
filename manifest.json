@@ -12,7 +12,8 @@
   "content_scripts": [
     {
       "matches": ["https://www.amazon.co.uk/vine/vine-items?queue=encore*"],
-      "js": ["accessibility.js"]
+      "js": ["vineCategorySnapshotComparer.js", "accessibility.js"],
+      "run_at": "document_idle"
     }
   ]
 }

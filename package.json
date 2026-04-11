@@ -1,0 +1,7 @@
+{
+  "name": "vine-highlighter",
+  "private": true,
+  "scripts": {
+    "test": "node --test vineCategorySnapshotComparerTests.js"
+  }
+}
